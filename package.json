@@ -1,7 +1,7 @@
 {
 	"name": "Merlin-WP",
 	"slug": "merlin-wp",
-	"textdomain": "merlin-wp",
+	"textdomain": "noor",
 	"repository": "https://github.com/richtabor/MerlinWP",
 	"version": "1.0.0-rc.1",
 	"theme_uri": "https://merlinwp.com",

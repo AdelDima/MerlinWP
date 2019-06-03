@@ -53,23 +53,20 @@
 	// Applies styles when Reduced Motion is enabled
 	@media screen and (prefers-reduced-motion: reduce) {
 		animation: none;
-		background: $blue;
+		background: $blue__darker;
 	}
 }
 
 .dots li.active::after {
+	content: '';
 	animation: sonarEffect 400ms ease-out 300ms;
 	border-radius: 999px;
-	content: '';
 	display: inline-block;
-	height: 8px;
 	left: -0.037778em;
 	position: absolute;
 	transition: box-shadow 300ms cubic-bezier(.694, 0, .335, 1);
-	width: 8px;
 	z-index: -1;
 	top: -.05em;
-
 	// Applies styles when Reduced Motion is enabled
 	@media screen and (prefers-reduced-motion: reduce) {
 		animation: none;
